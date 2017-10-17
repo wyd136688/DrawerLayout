@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--指定单选-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="home">
+        </item>
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Message">
+        </item>
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Friends">
+        </item>
+
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Discussion">
+        </item>
+
+    </group>
+    <item android:title="sub menu">
+        <menu>
+            <item android:id="@+id/sub_menu1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="sub_menu1">
+
+            </item>
+            <item android:id="@+id/sub_menu2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="sub_menu2">
+
+            </item>
+        </menu>
+
+
+    </item>
+
+</menu>
